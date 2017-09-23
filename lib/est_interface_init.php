@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Caso a aplicação tenha uma inicialização padrão, então deverá implementar esta interface.
+ * @author Administrador
+ */
+interface est_interface_init {
+    
+    public function run();
+    
+}

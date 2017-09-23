@@ -1,0 +1,18 @@
+<phpunit bootstrap="bootstrap.php" colors="false">
+    <filter>
+        <whitelist>
+            <directory suffix=".php">D:/Desenvolvimento/php/doctrine1/lib/</directory>
+            <directory suffix=".php">D:/Desenvolvimento/php/doctrine1/src/</directory>
+            <exclude>
+                <directory suffix=".php">D:/Desenvolvimento/php/doctrine1/test/</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+
+    <logging>
+        <!--<log type="coverage-html" target="D:/Desenvolvimento/php/doctrine1/test/codeCoverage" charset="UTF-8"
+            yui="true" highlight="true"
+            lowUpperBound="50" highLowerBound="80"/>
+         -->
+    </logging>
+</phpunit>

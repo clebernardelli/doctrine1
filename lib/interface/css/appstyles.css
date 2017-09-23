@@ -1,0 +1,143 @@
+/* Gerado Automáticamente pelo framework do Cleber*/
+.texto_plano {
+	 color: #FF0000;
+	 font-family: Verdana;
+	 font-size: 20pt;
+	 font-weight: bold;
+}
+.celula_simples {
+	 background-color: white;
+	 padding-top: 10px;
+	 padding-bottom: 10px;
+	 padding-left: 10px;
+	 padding-right: 10px;
+	 margin-left: 5px;
+	 width: 142px;
+	 height: 154px;
+}
+.panel {
+	 position: relative;
+	 width: 100px;
+	 height: 100px;
+	 border: 2px solid;
+	 border-color: grey;
+	 background-color: #F0F0F0;
+}
+.dialog {
+	 position: absolute;
+	 left: 50%;
+	 top: 50%;
+	 width: 100%;
+	 height: 50px;
+	 background-color: #e0e0e0;
+	 border: 1px solid #000000;
+}
+.janela {
+	 width: 400px;
+	 height: 300px;
+	 z-index: 10000;
+}
+.janela_manutencao .janela{
+	 width: 400px;
+	 height: 300px;
+	 z-index: 10000;
+}
+.fundo_titulo_dialog {
+	 background-color: blue;
+}
+.titulo_dialog {
+	 float: left;
+	 font-family: arial;
+	 font-size: 10pt;
+	 color: white;
+	 font-weight: bold;
+	 width: 100%;
+	 height: 100%;
+	 line-height: 185%;
+}
+.titulo_area_botoes {
+	 float: right;
+	 height: 100%;
+	 line-height: 230%;
+}
+.area_cabecalho_dialog {
+	 width: 100%;
+	 height: 24px;
+	 border-collapse: collapse;
+}
+.area_rodape_dialog {
+	 position: absolute;
+	 width: 100%;
+	 height: 30px;
+	 border-collapse: collapse;
+	 bottom: 0px;
+	 background-color: blue;
+}
+.botao_acao_base {
+	 cursor: inherit;
+	 width: 90px;
+	 height: 24px;
+	 padding: 0px;
+	 margin: 0px;
+	 valign: top;
+	 margin-left: 3px;
+	 margin-top: 3px;
+	 float: none;
+}
+.botao_acao_dialog {
+	 width: 16px;
+	 height: 16px;
+	 margin-top: 4px;
+	 margin-right: 1px;
+	 background-image: url("/doctrine1/lib/interface/imagem/temas/padrao/imagem_temas_padrao_botoes.png");
+	 background-repeat: no-repeat;
+	 float: right;
+}
+.message_base {
+	 background-color: #DDDDDD;
+	 border: 4px solid #000000;
+	 z-index: 10000000000000000;
+}
+.area_dialog {
+	 valign: top;
+}
+.area_conteudo_dialog {
+	 valign: top;
+	 width: 100%;
+	 position: absolute;
+}
+.table_layout {
+	 float: right;
+	 width: 100%;
+	 margin-top: 1px;
+	 margin-bottom: 1px;
+	 margin-right: 1px;
+}
+.edit_base {
+	 margin-top: 4px;
+	 margin-right: 1px;
+	 padding: 0px;
+}
+.edit {
+	 height: 21px;
+}
+.label_base {
+	 margin-top: 4px;
+	 margin-right: 1px;
+}
+.label_base::after {
+	 content: ":";
+}
+.label_edit_base {
+	 width: 100%;
+	 display: block;
+	 text-align: right;
+	 margin-right: 3px;
+	 padding: 0px;
+}
+.disable {
+	 background-color: #ccc;
+}
+.enable {
+	 background-color: #fdfdfd;
+}
